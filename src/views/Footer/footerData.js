@@ -1,0 +1,26 @@
+export default [
+    {
+        title:"关于我们",
+        menus:[
+            {name:"公司介绍",link:"/About"},
+        ]
+    },
+    {
+        title:"产品",
+        menus:[
+            {name:"验证码短信",link:"/service?type=1"},
+            {name:"行业短信",link:"/service?type=2"},
+            {name:"营销短信",link:"/service?type=3"},
+        ]
+    },
+    {
+        title:"客户案例",
+        menus:[]
+    },
+    {
+        title:"开发者中心",
+        menus:[
+            {name:"接口文档",link:"/Docs"},
+        ]
+    },
+]
